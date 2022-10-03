@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# launch virt-manager and scream launch, IVSHMEM mode
+# Launch virt-manager and scream, IVSHMEM mode
 # scream and bash script in the same directory
 
 virt-manager
