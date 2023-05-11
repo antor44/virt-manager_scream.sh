@@ -7,7 +7,7 @@ virt-manager
 PIDX=$(ps k -start_time exo pid,comm,tty | grep ' '"virt-manager"' ') # $! doesn't work
 PIDX=${PIDX%%virt-manager*}
 echo $PIDX
-./scream& # For Pulseaudio or Alsa with bridge networks
+./scream& # For Pulseaudio, Jack or Alsa with bridge networks
 PIDZ=$!
 echo $PIDZ
 
